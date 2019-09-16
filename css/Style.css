@@ -1,0 +1,256 @@
+@font-face {
+    font-family: 'Futura Heavy';
+    src: url("../fonts/Futura-Heavy-font.ttf")format("truetype");
+   
+}
+@font-face {
+    font-family: 'Futura';
+    src: url("../fonts/futura-light-bt.ttf") format("truetype");
+   
+}
+
+
+@font-face {
+    font-family: 'Friday';
+    src: url( "../fonts/The Friday Stroke Font by 7NTypes.otf") format("opentype");
+}
+
+
+
+body{
+    font-family: 'Futura';
+    font-size: 14px;
+    color: #999999;
+	background-color: #F8F8F8;
+
+}
+
+
+header{
+    background-color: transparent;
+    padding: 10px 0;
+    position: absolute;
+    width: 50%;
+    z-index: 10000;
+	font-family: 'Futura Heavy';
+	font-weight: 900;
+}
+
+#header img{
+	align: center;
+}
+
+#home{
+	background-image: url( "../img/home-7.jpg");
+	background-size: cover;
+	background-position:bottom center;
+	padding: 18.5% 0;
+	
+
+	}
+
+
+
+#home img{
+	text-align: center;
+	
+
+	}
+
+
+
+#creatives{
+	background-color: #f9c1c3;
+	color: #FFFFFF;
+	text-align: center;
+	padding: 1% 0;
+}
+
+.titulo{
+	font-family: 'Friday';
+	font-size: 110px;
+	text-align: center;
+	color: #FFFFFF;
+	padding-bottom: 20px;
+	
+}
+
+.subtitulo{
+	text-transform: uppercase;
+	font-family: 'Futura Heavy';
+	font-size: 20px;
+	
+}
+
+#creatives p{
+	padding-top: 30px;
+	margin: 40px;
+	text-align: justify;
+}
+
+
+#proyectos{
+	padding: 40px 0;
+	text-decoration: none;
+}
+
+.smalltitle{
+	font-family: 'Futura Heavy';
+	font-size: 20px;
+	text-transform: uppercase;
+	text-align: center;
+	
+}
+
+.smallsub{
+	font-family: 'Futura';
+	font-size: 15px;
+	text-transform: uppercase;
+	text-align: center;
+	padding-bottom: 30px;
+	font-weight: 100;
+	
+}
+
+.project-texto h4{
+    text-transform: uppercase;
+	font-family: 'Futura Heavy';
+    letter-spacing: 2px;
+    font-size: 20px;
+	text-decoration: none;
+	font-style: normal;
+	color: #FFFFFF;
+	text-decoration-line: none;
+
+	
+	
+}
+
+.project{
+    position: relative;
+    overflow: hidden;
+}
+
+.project-fondo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(246,220,213,0.91);
+    opacity: 0;
+    transition: all 0.4s ease-in;
+    z-index: 10;
+
+}
+
+.project-texto{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFFFFF;
+    text-align: center;
+    opacity: 0;
+    transition: all 0.4s ease-in;
+    z-index: 50;
+	text-decoration: none;
+	font-family: 'Futura Heavy';
+	
+	
+	
+}
+
+
+
+.project:hover .project-fondo,
+.project:hover .project-texto {
+    opacity: 1;
+    transition: all 0.4s ease-in;
+	color: #FFFFFF;
+}
+
+
+.project-frame{
+    position: absolute;
+    top: 0;
+    padding: 5px;
+    width: 100%;
+    height: 100%;
+}
+
+#about{
+	background-color: #f6dcd5;
+	color: #FFFFFF;
+	padding: 30px 0;
+	
+	text-align: justify;
+}
+
+
+#about p{
+	
+	background-color: #f6dcd5;
+	color: #FFFFFF;
+	padding: 30px 0;
+	
+	text-align: justify;
+}
+
+#servicios{
+	padding: 40px 0;
+	background-color: #F8F8F8;
+	padding: 90px 0;
+	
+}
+
+#servicios h3{
+	font-family: 'Futura Heavy';
+	font-size: 15px;
+	text-transform: uppercase;
+}
+
+.abajo{
+	padding-top: 40px;
+}
+
+.icons{
+	text-align: center;
+	color: #f9c1c3;
+	font-size: 50px;
+	
+	padding-top: 40px;
+}
+
+.icons:hover{
+	transform:scale(1.2);
+	transform: all 1s ease-in-out;
+	filter: blur(0px);
+}
+
+#work{
+	background-color: #f9c1c3;
+	padding: 40px;
+}
+
+#contact{
+	padding-top: 30px;
+}
+
+#contact{
+	padding-top: 30px;
+}
+
+
+.social{
+	font-size: 40px;
+	
+}
+
+footer{
+	text-align: center;
+	text-decoration: none;
+	padding: 50px;
+	background-color: #f9c1c3;
+	color: #FFFFFF;
+}
